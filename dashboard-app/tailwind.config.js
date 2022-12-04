@@ -39,7 +39,8 @@ module.exports = {
         590: "590px",
       },
       backgroundImage: {
-        "hero-pattern": "url('https://i.ibb.co/MkvLDfb/Rectangle-4389.png')",
+        "hero-pattern":
+          "url('file:///C:/Users/Mavro/Documents/GitHub/React/React-Dashboard_App/dashboard-app/src/data/engineering-team.svg')",
       },
     },
   },
