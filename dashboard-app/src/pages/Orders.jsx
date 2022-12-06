@@ -31,6 +31,7 @@ const Orders = () => {
         allowPdfExport={true}
         allowExcelExport={true}
         toolbar={["PdfExport", "ExcelExport"]}
+        onClick={() => toolbarClick}
       >
         <ColumnsDirective>
           {ordersGrid.map((item, index) => (
