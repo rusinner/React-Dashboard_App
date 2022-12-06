@@ -28,7 +28,7 @@ const Employees = () => {
             <ColumnDirective key={index} {...item} />
           ))}
         </ColumnsDirective>
-        <Inject services={[Page, Search, Toolbar]} />
+        <Inject services={[Page, Search, Toolbar, Edit]} />
       </GridComponent>
     </div>
   );
