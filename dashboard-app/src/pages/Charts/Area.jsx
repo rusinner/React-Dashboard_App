@@ -25,7 +25,7 @@ const Area = () => {
       <Header category="Area" title="Inflation Rate in percentage" />
       <div className="w-full">
         <ChartComponent
-          id="charts"
+          id="area-chart"
           primaryXAxis={areaPrimaryXAxis}
           primaryYAxis={areaPrimaryYAxis}
           chartArea={{ border: { width: 0 } }}
